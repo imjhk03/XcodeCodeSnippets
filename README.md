@@ -8,6 +8,10 @@ My personal collection of useful Xcode code snippets.
 2. Restart Xcode
 3. Enjoy!
 
+<br>
+
+## Collections
+
 ### Adapter Stub
 Creates a template for CollectionView, shortcut: ```collection view adapter```
 ```
