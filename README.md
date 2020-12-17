@@ -12,7 +12,7 @@ My personal collection of useful Xcode code snippets.
 
 ## Collections
 
-### Adapter Stub
+### Collection view adapter
 Creates a template for CollectionView, shortcut: ```collection view adapter```
 ```
 // MARK: - UICollectionViewDataSource
@@ -35,4 +35,10 @@ extension <#AdapterName#>: UICollectionViewDelegate {
 extension <#AdapterName#>: UICollectionViewDelegateFlowLayout {
     
 }
+```
+
+### Mark
+Add Mark Line, shortcut: ```mark```
+```
+// MARK: - <#Name#>
 ```
