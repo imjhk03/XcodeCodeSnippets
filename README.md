@@ -42,3 +42,18 @@ Add Mark Line, shortcut: ```mark```
 ```
 // MARK: - <#Name#>
 ```
+
+### ViewModel Analytics
+Create an extension of ViewModel for analytics. It has ```enum Event``` for various events, shortcut: ```viewmodel analytics```
+```
+//MARK: - Analytics
+extension <#ViewModelName#> {
+    enum Event {
+        
+    }
+    
+    func sendAnalyticsEvent(_ event: Event) {
+        
+    }
+}
+```
