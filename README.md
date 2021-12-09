@@ -46,7 +46,7 @@ Add Mark Line, shortcut: ```mark```
 ### ViewModel Analytics
 Create an extension of ViewModel for analytics. It has ```enum Event``` for various events, shortcut: ```viewmodel analytics```
 ```
-//MARK: - Analytics
+// MARK: - Analytics
 extension <#ViewModelName#> {
     enum Event {
         
@@ -56,4 +56,11 @@ extension <#ViewModelName#> {
         
     }
 }
+```
+
+### Guard Self
+Add the guard self return, shortcut: guard self
+```
+// MARK: - Analytics
+guard let self = self else { return }
 ```
